@@ -1,17 +1,23 @@
 import { Users, Calendar, BookOpen } from 'lucide-react';
 import FeatureCard from './FeatureCard';
 
+/**
+ * SECTION DES POINTS FORTS (Features.jsx)
+ * 
+ * Cette section liste les avantages ou fonctionnalités du projet.
+ */
 const Features = () => {
-  // Les données des cartes
+  // On crée un "tableau d'objets" qui contient les infos de chaque carte.
+  // Ça évite de répéter le même code HTML 3 fois.
   const featuresData = [
     {
-      title: "Gestion des Membres",
-      desc: "Gérez facilement les membres de votre club informatique.",
+      title: "Espace communautaire",
+      desc: "Un espace de networking pour discuter et partager avec les autres membres.",
       icon: <Users className="h-8 w-8 text-blue-600" />
     },
     {
-      title: "Événements",
-      desc: "Organisez et suivez les événements du club.",
+      title: "Actualité des universités",
+      desc: "Ne ratez pas les dernières actualités des universités.",
       icon: <Calendar className="h-8 w-8 text-blue-600" />
     },
     {
@@ -27,10 +33,12 @@ const Features = () => {
         Fonctionnalités principales
       </h2>
 
+      {/* La grille (grid) pour afficher les cartes côte à côte */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* On parcourt le tableau (.map) pour créer une <FeatureCard /> pour chaque élément */}
         {featuresData.map((feature, index) => (
-          <FeatureCard 
-            key={index}
+          <FeatureCard
+            key={index} // indispensable pour que React s'y retrouve
             icon={feature.icon}
             title={feature.title}
             description={feature.desc}
