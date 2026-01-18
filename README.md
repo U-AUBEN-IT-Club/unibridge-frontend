@@ -1,16 +1,28 @@
-# React + Vite
+#  Plateforme Club Info
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur le dépôt de la plateforme de gestion du club informatique universitaire.
+artage de tutoriels.
 
-Currently, two official plugins are available:
+## 🛠️ Stack Technique
+- Framework : React + Vite
+- Styling : Tailwind CSS v4
+- Icônes : Lucide React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Installation
 
-## React Compiler
+1. Cloner le projet :
+   Avec git clone ou foker tout simplement
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Ensuite faite : npm install pour les dépendances
+2. Installe les differentes dépendances comme : 
 
-## Expanding the ESLint configuration
+    Tailwind : npm install tailwindcss @tailwindcss/vite
+    lucide react : npm install lucide-react
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## structure du projet
+
+src/components/ : Composants réutilisables (Navbar, Cards...)
+
+src/pages/ : Les pages principales (si utilisation du routeur)
+
+src/App.jsx : Point d'entrée principal
