@@ -74,12 +74,13 @@ Pour maintenir la qualité du code et la cohérence du projet, chaque contribute
 ## 🤝 Contribution
 Ce projet est open-source. N'hésitez pas à proposer des améliorations sur la partie design ou sur la structure des données !
 
-### 👥 Contributeurs du projet
-- **Abdoulaye** (Lead Developer / Administrateur)
-- *... (Votre nom ici en contribuant sur GitHub) ...*
-
 > [!TIP]
 > **Note sur l'IA** : L'utilisation des agents IA est un atout, mais évitez de les utiliser de manière abusive sans comprendre ce qu'ils génèrent. N'oubliez jamais que pour **comprendre**, il faut d'abord **apprendre**. Prenez le temps de lire le code généré !
+
+---
+### 👥 Contributeurs du projet
+- **shwaib19** (Lead Developer / Administrateur)
+- *nono-dd* (Développeur frontend / Concepteur de la version initiale)
 
 ---
 *UniBridge - Bâtir des ponts entre le savoir et la pratique.*
